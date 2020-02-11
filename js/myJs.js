@@ -96,9 +96,9 @@ $('#yes').click(function() {
     var audio = new Audio('sound/gnbhnte.mp3');
     audio.play();
     Swal.fire({
-        title: 'Nói cho tớ lí do cậu thích tớ đi :vvvv',
+        title: 'Nói cho tớ lí do cậu thích Tuấn đi,vừa nghe nhạc vừa suy nghĩ để trả lời nha',
         html: true,
-        width: 700,
+        width: 300,
         padding: '3em',
         html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='Whyyy'>",
         background: '#fff url("img/iput-bg.jpg")',
@@ -109,20 +109,20 @@ $('#yes').click(function() {
               no-repeat
             `,
         showCancelButton: true,
-        cancelButtonText: "Thôi ngại lém :<<",
+        cancelButtonText: "thích thì gửi không thích thì gửi",
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
         confirmButtonColor: '#fe8a71',
         cancelButtonColor: '#f6cd61',
-        confirmButtonText: 'Gửi cho tớ <3'
+        confirmButtonText: 'Gửi cho Tuấn '
     }).then((result) => {
         if (result.value) {
             Swal.fire({
                 width: 900,
                 confirmButtonText: 'Oceee lun <3',
                 background: '#fff url("img/iput-bg.jpg")',
-                title: 'Tớ biết mà ^^ Yêu cậu 3000',
-                text: "Tối nay tớ qua đón cậu đi chơi nha :v Còn giờ thì chờ gì nữa mà ko inbox cho tớ đi nàoooooo",
+                title: 'Tuấn biết mà ^^ Yêu cậu 3000',
+                text: "Tối nay Tuấn qua đón cậu đi chơi nkea,Còn giờ thì chờ gì nữa mà ko inbox cho tớ đi nàoooooo",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
                     window.location = 'https://www.facebook.com/tuanlee.2707';
