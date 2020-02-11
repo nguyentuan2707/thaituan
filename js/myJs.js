@@ -14,8 +14,8 @@ function firstQuestion(){
     
     $('.content').hide();
     Swal.fire({
-        title: 'He luu cậu!',
-        text: 'Tớ có điều này muốn hỏi cậu nhớ phải trả lời thật lòng nhaaa.',
+        title: 'Tuấn chào bạn nữ xinh xắn của lòng Tuấn nha',
+        text: 'Tuấn có điều này muốn hỏi cậu nhớ phải trả lời thật lòng nhaeee!.',
         imageUrl: 'img/cuteCat.jpg',
         imageWidth: 300,
         imageHeight: 300,
@@ -73,7 +73,7 @@ $('#no').click(() => {
 // generate text in input
 function textGenerate() {
     var n = "";
-    var text = " Tại vì cậu đẹp trai vl :<<<<<<< ";
+    var text = " Tại vì Tuấn đẹp trai có phải không, có phải đang ngạc nhiên lắm đúng không,tại sao bấm 1 đường mà ra 1 nẻo, trời oyy tại vì Tuấn lập trình cho nó đây hjhj. ";
     var a = Array.from(text);
     var textVal = $('#txtReason').val() ? $('#txtReason').val() : "";
     var count = textVal.length;
@@ -93,12 +93,12 @@ function textGenerate() {
 
 // show popup
 $('#yes').click(function() {
-    var audio = new Audio('sound/tick.mp3');
+    var audio = new Audio('sound/gnbhnte.mp3');
     audio.play();
     Swal.fire({
         title: 'Nói cho tớ lí do cậu thích tớ đi :vvvv',
         html: true,
-        width: 900,
+        width: 700,
         padding: '3em',
         html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='Whyyy'>",
         background: '#fff url("img/iput-bg.jpg")',
