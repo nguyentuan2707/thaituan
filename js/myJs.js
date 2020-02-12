@@ -73,7 +73,7 @@ $('#no').click(() => {
 // generate text in input
 function textGenerate() {
     var n = "";
-    var text = " Tại vì Tuấn đẹp trai có phải không, có phải đang ngạc nhiên lắm đúng không,tại sao bấm 1 đường mà ra 1 nẻo, trời oyy tại vì Tuấn lập trình cho nó đây hjhj. ";
+    var text = " Tại vì Tuấn đẹp trai có phải không,Hương hồng hoa từ trên người em. khiến anh hiếu hì hơn về em .Em là ai ? Anh muốn biết nhiều hơn ngoài tên, Hương này son hay phấn trên áo trắng hay tóc em vương,Thôi để anh đoán thử có phải em phương xa tự nhiên hương :)).";
     var a = Array.from(text);
     var textVal = $('#txtReason').val() ? $('#txtReason').val() : "";
     var count = textVal.length;
@@ -93,7 +93,7 @@ function textGenerate() {
 
 // show popup
 $('#yes').click(function() {
-    var audio = new Audio('sound/gnbhnte.mp3');
+    var audio = new Audio('sound/ducphuc.mp3');
     audio.play();
     Swal.fire({
         title: 'Nói cho tớ lí do cậu thích Tuấn đi,vừa nghe nhạc vừa suy nghĩ để trả lời nha',
