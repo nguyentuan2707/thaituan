@@ -93,7 +93,7 @@ function textGenerate() {
 
 // show popup
 $('#yes').click(function() {
-    var audio = new Audio('sound/ducphuc.mp3');
+    var audio = new Audio('sound/sao khong noi.mp3');
     audio.play();
     Swal.fire({
         title: 'Nói cho tớ lí do cậu thích Tuấn đi,vừa nghe nhạc vừa suy nghĩ để trả lời nha',
